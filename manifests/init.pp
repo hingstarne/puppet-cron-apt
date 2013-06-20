@@ -19,7 +19,7 @@ class cron-apt (
 
   file { '/etc/cron-apt/action.d/5-upgrade':
     ensure  => $upgrade_ensure,
-    source  => 'puppet:///cron-apt/action.upgrade',
+    source  => 'puppet:///modules/cron-apt/action.upgrade',
     require => Package['cron-apt'],
   }
 }
