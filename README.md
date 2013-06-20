@@ -5,7 +5,7 @@ This is a Puppet module to install and configure cron-apt.
 it has an additional upgrade step.
 
 Usage
-_____
+-----
 
 include cron-apt
 
